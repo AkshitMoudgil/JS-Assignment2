@@ -1,0 +1,53 @@
+/* Setting font and alignment for the entire document */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Styling for labels*/
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Styling for number input field */
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+/* Styling for buttons */
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* Styling for "Change custom color" button */
+.custColor {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+/* Styling for "Change random color" button */
+.randColor {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+}
+
+/* Styling for image selection dropdown */
+#imageSelect {
+    width: 100%;
+    padding: 8px;
+}
+
+/* Styling for displayed images */
+#images {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
